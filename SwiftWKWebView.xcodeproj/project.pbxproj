@@ -14,6 +14,11 @@
 		05AD891A207D0C3200C59704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05AD8918207D0C3200C59704 /* LaunchScreen.storyboard */; };
 		05AD8925207D0C3200C59704 /* SwiftWKWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD8924207D0C3200C59704 /* SwiftWKWebViewTests.swift */; };
 		05AD8930207D0C3200C59704 /* SwiftWKWebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD892F207D0C3200C59704 /* SwiftWKWebViewUITests.swift */; };
+		05D44FFE208200E500E2FF02 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 05D44FFC208200E400E2FF02 /* index.js */; };
+		05D44FFF208200E500E2FF02 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 05D44FFD208200E400E2FF02 /* index.html */; };
+		05D45002208201CB00E2FF02 /* NativeApi.js in Resources */ = {isa = PBXBuildFile; fileRef = 05D45000208201CA00E2FF02 /* NativeApi.js */; };
+		05D45003208201CB00E2FF02 /* ImgAddClickEvent.js in Resources */ = {isa = PBXBuildFile; fileRef = 05D45001208201CB00E2FF02 /* ImgAddClickEvent.js */; };
+		05D450052082551400E2FF02 /* WKWebViewText.html in Resources */ = {isa = PBXBuildFile; fileRef = 05D450042082551400E2FF02 /* WKWebViewText.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		05AD892B207D0C3200C59704 /* SwiftWKWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWKWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05AD892F207D0C3200C59704 /* SwiftWKWebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWKWebViewUITests.swift; sourceTree = "<group>"; };
 		05AD8931207D0C3200C59704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05D44FFC208200E400E2FF02 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		05D44FFD208200E400E2FF02 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		05D45000208201CA00E2FF02 /* NativeApi.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = NativeApi.js; sourceTree = "<group>"; };
+		05D45001208201CB00E2FF02 /* ImgAddClickEvent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ImgAddClickEvent.js; sourceTree = "<group>"; };
+		05D450042082551400E2FF02 /* WKWebViewText.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WKWebViewText.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,11 @@
 		05AD890E207D0C3000C59704 /* SwiftWKWebView */ = {
 			isa = PBXGroup;
 			children = (
+				05D450042082551400E2FF02 /* WKWebViewText.html */,
+				05D45001208201CB00E2FF02 /* ImgAddClickEvent.js */,
+				05D45000208201CA00E2FF02 /* NativeApi.js */,
+				05D44FFD208200E400E2FF02 /* index.html */,
+				05D44FFB208200E400E2FF02 /* js */,
 				05AD890F207D0C3000C59704 /* AppDelegate.swift */,
 				05AD8911207D0C3000C59704 /* ViewController.swift */,
 				05AD8913207D0C3000C59704 /* Main.storyboard */,
@@ -123,6 +138,14 @@
 				05AD8931207D0C3200C59704 /* Info.plist */,
 			);
 			path = SwiftWKWebViewUITests;
+			sourceTree = "<group>";
+		};
+		05D44FFB208200E400E2FF02 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				05D44FFC208200E400E2FF02 /* index.js */,
+			);
+			path = js;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +252,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D44FFF208200E500E2FF02 /* index.html in Resources */,
+				05D45003208201CB00E2FF02 /* ImgAddClickEvent.js in Resources */,
 				05AD891A207D0C3200C59704 /* LaunchScreen.storyboard in Resources */,
+				05D45002208201CB00E2FF02 /* NativeApi.js in Resources */,
 				05AD8917207D0C3200C59704 /* Assets.xcassets in Resources */,
+				05D450052082551400E2FF02 /* WKWebViewText.html in Resources */,
 				05AD8915207D0C3000C59704 /* Main.storyboard in Resources */,
+				05D44FFE208200E500E2FF02 /* index.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
